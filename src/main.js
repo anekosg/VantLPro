@@ -16,7 +16,8 @@ import {
     NavBar,
     Icon,
     Swipe, 
-    SwipeItem
+    SwipeItem,
+    Lazyload 
 } from 'vant';
 Vue
 .use(Tabbar)
@@ -27,7 +28,8 @@ Vue
 .use(VueRouter)
 .use(Swipe)
 .use(SwipeItem)
-.use(VueResource);
+.use(VueResource)
+.use(Lazyload);
 
 
 var vm = new Vue({
