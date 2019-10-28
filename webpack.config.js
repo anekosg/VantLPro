@@ -23,7 +23,7 @@ module.exports={
     module:{
         rules:[
             { test: /\.css$/, use: ['style-loader', 'css-loader'] },
-            { test: /\.scss$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
+            { test: /\.scss$/, use: ['style-loader', 'css-loader', 'sass-loader'] }, 
             { test: /\.vue$/, use: 'vue-loader' } // 处理 .vue 文件的 loader
         ]
     },
